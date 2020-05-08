@@ -18,6 +18,15 @@ public class StringUpdates {
 
         System.out.println(str.lines().collect(Collectors.toList()));//split with \n and lines and collect list.
 
+        char c = '\u2000';
+
+        str = c + str + c;
+
+//        System.out.println(str.strip());
+        System.out.println(str.stripLeading());
+       // System.out.println(str.stripTrailing());
+
+        System.out.println("-.".repeat(100));
 
     }
 }
