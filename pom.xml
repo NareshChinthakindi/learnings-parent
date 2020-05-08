@@ -12,6 +12,7 @@
 	</parent>
   <modules>
 		<module>corejava</module>
+	    <module>design-patterns</module>
 	</modules>
 	<properties>
 		<java.version>11</java.version>
