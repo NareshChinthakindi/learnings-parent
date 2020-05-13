@@ -13,6 +13,7 @@
   <modules>
 		<module>corejava</module>
 	    <module>design-patterns</module>
+	  <module>spring-reactive-mongo-webflux</module>
 	</modules>
 	<properties>
 		<java.version>11</java.version>
