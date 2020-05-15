@@ -14,6 +14,7 @@
 		<module>corejava</module>
 	    <module>design-patterns</module>
 	  <module>spring-reactive-mongo-webflux</module>
+	  <module>spring-reactive-mongo-client</module>
 	</modules>
 	<properties>
 		<java.version>11</java.version>
