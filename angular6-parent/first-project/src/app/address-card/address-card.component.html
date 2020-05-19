@@ -1,0 +1,10 @@
+<div>
+ <h1>Firstname : {{user.name}}</h1>
+ <h3>Title : {{user.designation}}</h3>
+ <button (click)="toogleView()">{{buttonText}}</button>
+ <div *ngIf="!isCollapsed">
+ <p>Address : {{user.address}}</p>
+ <p>Phone:</p>
+ <p *ngFor="let phoneNumber of user.phone">{{phoneNumber}}</p>
+</div>
+</div>
